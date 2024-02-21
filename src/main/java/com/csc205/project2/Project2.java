@@ -32,9 +32,21 @@ public class Project2 {
         /*
         The following code works with the code given.
          */
+        ThreeDimensionalShape sphere = new Sphere(2.0);
+        ThreeDimensionalShape cube = new Cube(5.0);
+        ThreeDimensionalShape cylinder = new Cylinder(4.0,1.0);
+        ThreeDimensionalShape cone = new Cone(4.0, 1.0);
+        List<ThreeDimensionalShape> shapes = new ArrayList<>();
 
-        Sphere sphere = new Sphere(2.0);
-        System.out.println(sphere);
+        shapes.add(sphere);
+        shapes.add(cube);
+        shapes.add(cylinder);
+        shapes.add(cone);
+
+        shapes.forEach(System.out::println);
+
+
+
     }
 
 }
