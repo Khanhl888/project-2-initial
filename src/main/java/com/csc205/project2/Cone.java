@@ -1,3 +1,6 @@
+//extra credit: generate me a Cone class with the variables height and radius and
+// include the methods of surfaceArea and Volume
+
 package com.csc205.project2;
 
 public class Cone extends Shape {
@@ -30,6 +33,7 @@ public class Cone extends Shape {
     public void setRadius(double radius){
         this.radius=radius;
     }
+
     public double surfaceArea(){
         double slantHeight = Math.sqrt(Math.pow(radius, 2) + Math.pow(height, 2));
         return Math.PI * radius * (radius + slantHeight);

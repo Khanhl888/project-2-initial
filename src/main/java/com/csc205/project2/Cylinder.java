@@ -1,3 +1,6 @@
+//extra credit: generate me a cylinder class using the variables height
+// and radius and have the methods surfaceArea and Volume and only use return in those methods
+
 package com.csc205.project2;
 
 public class Cylinder extends Shape{

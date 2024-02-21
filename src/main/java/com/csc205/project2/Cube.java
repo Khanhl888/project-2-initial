@@ -1,3 +1,6 @@
+//extra Credit: generate me a Cube class with width and have the methods to
+// generate surfaceArea and volume and only use return in those methods
+
 package com.csc205.project2;
 
 public class Cube extends Shape {
@@ -20,6 +23,7 @@ public class Cube extends Shape {
     public void setWidth(double width){
         this.width=width;
     }
+
     public double surfaceArea(){
      return (6 * Math.pow(width,2));
     }
